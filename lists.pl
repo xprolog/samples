@@ -33,7 +33,7 @@ nrev([H|T0], L) :-
 test(sublist_1, true, [nondet]) :-
   sublist([a,b,c,d,e], [c,d]).
 
-test(nrev_1, L == [e,d,c,b,a]) :-
-  nrev([a,b,c,d,e], L).
+test(nrev_1, L == [d,c,b,a]) :-
+  nrev([a,b,c,d], L).
 
 :- @end(tests).
