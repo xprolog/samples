@@ -29,3 +29,7 @@ config('1.07 (**) Flatten a nested list structure',
 config('1.08 (**) Eliminate consecutive duplicates of list elements',
     'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_08.pl',
     [goal(compress([a,a,a,a,b,c,c,a,a,d,e,e,e,e],X)), category(tutorial)]).
+
+config('Lists', 
+    'https://raw.githubusercontent.com/xprolog/samples/master/lists.pl',
+    [goal(nrev([1,2,3,4], L)), category(tutorial)]).
