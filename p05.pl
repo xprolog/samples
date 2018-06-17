@@ -1,5 +1,3 @@
-% Adapted from "P-99: Ninety-Nine Prolog Problems" by Werner Hett.
-
 % P05 (*): Reverse a list
 
 % reverse(?L1, ?L2)

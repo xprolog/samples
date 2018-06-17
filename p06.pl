@@ -1,5 +1,3 @@
-% Adapted from "P-99: Ninety-Nine Prolog Problems" by Werner Hett.
-
 % P06 (*): Find out whether a list is a palindrome
 % A palindrome can be read forward or backward; e.g. [x,a,m,a,x]
 

@@ -1,4 +1,4 @@
-% Adapted from "P-99: Ninety-Nine Prolog Problems" by Werner Hett.
+% "P-99: Ninety-Nine Prolog Problems" by Werner Hett.
 
 % P01 (*): Find the last element of a list
 

@@ -1,5 +1,3 @@
-% Adapted from "P-99: Ninety-Nine Prolog Problems" by Werner Hett.
-
 % P04 (*): Find the number of elements of a list
 
 % Note: length(?L, ?N) is predefined

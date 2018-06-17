@@ -1,5 +1,3 @@
-% Adapted from "P-99: Ninety-Nine Prolog Problems" by Werner Hett.
-
 % P08 (**): Eliminate consecutive duplicates of list elements
 
 % compress(+L1, ?L2)

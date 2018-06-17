@@ -1,5 +1,3 @@
-% Adapted from "P-99: Ninety-Nine Prolog Problems" by Werner Hett.
-
 % P07 (**): Flatten a nested list structure
 
 % flatten(+L1, ?L2)
