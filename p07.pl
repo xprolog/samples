@@ -11,9 +11,9 @@ flatten([], []) :- !.
 flatten(X,[X]).
 
 
-:- @begin(tests).
+:- @begin(test).
 
 test(-, L == [a,b,c,d,e]) :-
     flatten([a,[b,[c,d],e]], L).
 
-:- @end(tests).
+:- @end(test).
