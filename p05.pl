@@ -10,11 +10,11 @@ reverse_([X|Xs], L2, Acc) :-
     reverse_(Xs, L2, [X|Acc]).
 
 
-:- @begin(tests).
+:- @begin(test).
 
 test(-, L == [c,b,a]) :-
     reverse([a,b,c], L).
 
-:- @end(tests).
+:- @end(test).
 
 
