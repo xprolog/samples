@@ -12,9 +12,9 @@ compress([X,Y|Ys], [X|Zs]) :-
     compress([Y|Ys], Zs).
 
 
-:- @begin(tests).
+:- @begin(test).
 
 test(-, L == [a,b,c,a,d,e]) :-
     compress([a,a,a,a,b,c,c,a,a,d,e,e,e,e], L).
 
-:- @end(tests).
+:- @end(test).
