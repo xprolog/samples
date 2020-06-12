@@ -11,9 +11,9 @@ length([_|L], N) :-
     N is N1 + 1.
 
 
-:- @begin(tests).
+:- @begin(test).
 
 test(-, N == 3) :-
     length([a,b,c], N).
 
-:- @end(tests).
+:- @end(test).
