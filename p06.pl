@@ -9,10 +9,10 @@ palindrome(L) :-
     reverse(L, L).
 
 
-:- @begin(tests).
+:- @begin(test).
 
 test(-, true) :-
     palindrome([a,b,c,b,a]).
 
-:- @end(tests).
+:- @end(test).
 
