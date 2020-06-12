@@ -9,9 +9,9 @@ last(X, [_|L]) :-
     last(X, L).
 
 
-:- @begin(tests).
+:- @begin(test).
 
 test(-, X == 3) :-
     last(X, [1,2,3]).
 
-:- @end(tests).
+:- @end(test).
