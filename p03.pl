@@ -10,9 +10,9 @@ element_at(X, [_|L], K) :-
     element_at(X,L,K1).
 
 
-:- @begin(tests).
+:- @begin(test).
 
 test(-, X == b) :-
     element_at(X, [a,b,c], 2).
 
-:- @end(tests).
+:- @end(test).
