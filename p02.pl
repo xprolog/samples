@@ -7,10 +7,10 @@ last_but_one(X, [_,Y|Ys]) :-
     last_but_one(X, [Y|Ys]).
 
     
-:- @begin(tests).
+:- @begin(test).
 
 test(-, X == 2) :-
     last_but_one(X, [1,2,3]).
 
-:- @end(tests).
+:- @end(test).
     
